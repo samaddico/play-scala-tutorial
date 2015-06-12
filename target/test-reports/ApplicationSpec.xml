@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="dreamadmin-Lenovo-H430" name="ApplicationSpec" tests="2" errors="0" failures="1" time="-0.002">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="24.79-b02"/><property name="activator.home" value="/home/dreamadmin/play/activator-1.3.2-minimal"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/dreamadmin/IdeaProjects/play-scala-tutorial-one"/><property name="java.runtime.version" value="1.7.0_79-b14"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.13.0-49-generic"/><property name="user.home" value="/home/dreamadmin"/><property name="user.timezone" value="Africa/Lagos"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="/home/dreamadmin/play/activator-1.3.2-minimal/activator-launch-1.3.2.jar"/><property name="user.name" value="dreamadmin"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="/home/dreamadmin/play/activator-1.3.2-minimal/activator-launch-1.3.2.jar"/><property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_79"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="ApplicationSpec" name="(It is not a test)" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ApplicationSpec" name="(It is not a test)" time="-0.001">
+                                                 <failure message="'
+ 
+
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Welcome to Play 2.0&lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;/assets/stylesheets/main.css&quot;&gt;
+        &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/images/favicon.png&quot;&gt;
+        &lt;script src=&quot;/assets/javascripts/hello.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+ 
+     
+
+&lt;form action=&quot;/addBar&quot; method=&quot;POST&quot; &gt;
+    
+        
+
+
+
+
+
+
+
+
+
+&lt;dl class=&quot; &quot; id=&quot;name_field&quot;&gt;
+    
+    &lt;dt&gt;&lt;label for=&quot;name&quot;&gt;name&lt;/label&gt;&lt;/dt&gt;
+    
+    &lt;dd&gt;
+    &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; value=&quot;&quot; /&gt;
+&lt;/dd&gt;
+    
+    
+        &lt;dd class=&quot;info&quot;&gt;Required&lt;/dd&gt;
+    
+&lt;/dl&gt;
+
+
+
+        &lt;input type=&quot;submit&quot;/&gt;
+    
+&lt;/form&gt;
+
+ 
+
+    &lt;/body&gt;
+&lt;/html&gt;
+
+' doesn't contain 'Your new application is ready.'" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: '
+ 
+
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Welcome to Play 2.0&lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;/assets/stylesheets/main.css&quot;&gt;
+        &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/images/favicon.png&quot;&gt;
+        &lt;script src=&quot;/assets/javascripts/hello.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+ 
+     
+
+&lt;form action=&quot;/addBar&quot; method=&quot;POST&quot; &gt;
+    
+        
+
+
+
+
+
+
+
+
+
+&lt;dl class=&quot; &quot; id=&quot;name_field&quot;&gt;
+    
+    &lt;dt&gt;&lt;label for=&quot;name&quot;&gt;name&lt;/label&gt;&lt;/dt&gt;
+    
+    &lt;dd&gt;
+    &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; value=&quot;&quot; /&gt;
+&lt;/dd&gt;
+    
+    
+        &lt;dd class=&quot;info&quot;&gt;Required&lt;/dd&gt;
+    
+&lt;/dl&gt;
+
+
+
+        &lt;input type=&quot;submit&quot;/&gt;
+    
+&lt;/form&gt;
+
+ 
+
+    &lt;/body&gt;
+&lt;/html&gt;
+
+' doesn't contain 'Your new application is ready.'
+	at ApplicationSpec$$anonfun$2$$anonfun$apply$3$$anon$2.delayedEndpoint$ApplicationSpec$$anonfun$2$$anonfun$apply$3$$anon$2$1(ApplicationSpec.scala:27)
+	at ApplicationSpec$$anonfun$2$$anonfun$apply$3$$anon$2$delayedInit$body.apply(ApplicationSpec.scala:22)
+	at play.api.test.WithApplication$$anonfun$around$1.apply(Specs.scala:23)
+	at play.api.test.WithApplication$$anonfun$around$1.apply(Specs.scala:23)
+	at play.api.test.PlayRunners$class.running(Helpers.scala:49)
+	at play.api.test.Helpers$.running(Helpers.scala:403)
+	at play.api.test.WithApplication.around(Specs.scala:23)
+	at play.api.test.WithApplication.delayedInit(Specs.scala:20)
+	at ApplicationSpec$$anonfun$2$$anonfun$apply$3$$anon$2.&lt;init&gt;(ApplicationSpec.scala:22)
+	at ApplicationSpec$$anonfun$2$$anonfun$apply$3.apply(ApplicationSpec.scala:22)
+	at ApplicationSpec$$anonfun$2$$anonfun$apply$3.apply(ApplicationSpec.scala:22)
+</failure>
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>

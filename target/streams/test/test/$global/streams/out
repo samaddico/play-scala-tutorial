@@ -1,0 +1,120 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.specs2.runner.Specs2Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@20c78046, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0mIntegrationSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mApplication should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m work from within a browser[0m[0m
+[0m[[31merror[0m] [0m   '<?xml version="1.0" encoding="UTF-8"?>[0m
+[0m[[31merror[0m] [0m   <html>[0m
+[0m[[31merror[0m] [0m     <head>[0m
+[0m[[31merror[0m] [0m       <title>[0m
+[0m[[31merror[0m] [0m         Welcome to Play 2.0[0m
+[0m[[31merror[0m] [0m       </title>[0m
+[0m[[31merror[0m] [0m       <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css"/>[0m
+[0m[[31merror[0m] [0m       <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>[0m
+[0m[[31merror[0m] [0m       <script src="/assets/javascripts/hello.js" type="text/javascript">[0m
+[0m[[31merror[0m] [0m       </script>[0m
+[0m[[31merror[0m] [0m     </head>[0m
+[0m[[31merror[0m] [0m     <body>[0m
+[0m[[31merror[0m] [0m       <form action="/addBar" method="POST">[0m
+[0m[[31merror[0m] [0m         <dl class=" " id="name_field">[0m
+[0m[[31merror[0m] [0m           <dt>[0m
+[0m[[31merror[0m] [0m             <label for="name">[0m
+[0m[[31merror[0m] [0m               name[0m
+[0m[[31merror[0m] [0m             </label>[0m
+[0m[[31merror[0m] [0m           </dt>[0m
+[0m[[31merror[0m] [0m           <dd>[0m
+[0m[[31merror[0m] [0m             <input type="text" id="name" name="name" value=""/>[0m
+[0m[[31merror[0m] [0m           </dd>[0m
+[0m[[31merror[0m] [0m           <dd class="info">[0m
+[0m[[31merror[0m] [0m             Required[0m
+[0m[[31merror[0m] [0m           </dd>[0m
+[0m[[31merror[0m] [0m         </dl>[0m
+[0m[[31merror[0m] [0m         <input type="submit"/>[0m
+[0m[[31merror[0m] [0m       </form>[0m
+[0m[[31merror[0m] [0m     </body>[0m
+[0m[[31merror[0m] [0m   </html>[0m
+[0m[[31merror[0m] [0m   ' doesn't contain 'Your new application is ready.' (IntegrationSpec.scala:21)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification IntegrationSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 3 seconds, 48 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m1 example, 1 failure, 0 error[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@4fac1d53, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0mApplicationSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mApplication should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m send 404 on a bad request[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m render the index page[0m[0m
+[0m[[31merror[0m] [0m   '[0m
+[0m[[31merror[0m] [0m    [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   <!DOCTYPE html>[0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   <html>[0m
+[0m[[31merror[0m] [0m       <head>[0m
+[0m[[31merror[0m] [0m           <title>Welcome to Play 2.0</title>[0m
+[0m[[31merror[0m] [0m           <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css">[0m
+[0m[[31merror[0m] [0m           <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">[0m
+[0m[[31merror[0m] [0m           <script src="/assets/javascripts/hello.js" type="text/javascript"></script>[0m
+[0m[[31merror[0m] [0m       </head>[0m
+[0m[[31merror[0m] [0m       <body>[0m
+[0m[[31merror[0m] [0m           [0m
+[0m[[31merror[0m] [0m    [0m
+[0m[[31merror[0m] [0m        [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   <form action="/addBar" method="POST" >[0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m           [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   <dl class=" " id="name_field">[0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m       <dt><label for="name">name</label></dt>[0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m       <dd>[0m
+[0m[[31merror[0m] [0m       <input type="text" id="name" name="name" value="" />[0m
+[0m[[31merror[0m] [0m   </dd>[0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m           <dd class="info">Required</dd>[0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m   </dl>[0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m           <input type="submit"/>[0m
+[0m[[31merror[0m] [0m       [0m
+[0m[[31merror[0m] [0m   </form>[0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m    [0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m       </body>[0m
+[0m[[31merror[0m] [0m   </html>[0m
+[0m[[31merror[0m] [0m   [0m
+[0m[[31merror[0m] [0m   ' doesn't contain 'Your new application is ready.' (ApplicationSpec.scala:27)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification ApplicationSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 193 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m2 examples, 1 failure, 0 error[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 3, Failed 2, Errors 0, Passed 1[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	ApplicationSpec[0m
+[0m[[31merror[0m] [0m	IntegrationSpec[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

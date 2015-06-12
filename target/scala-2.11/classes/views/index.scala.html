@@ -1,0 +1,99 @@
+@(itemForm: Form[Item],items: Seq[Item],categories : Seq[Category])
+
+
+@main("Welcome to Play 2.0") {
+<div class="container">
+ <section class="" >
+     <h2>Add New </h2>
+
+
+     <div class="" >
+     @helper.form(action = routes.Application.addItem(),'role -> "form",'class -> "form-horizontal") {
+     <div class="control-group">
+         <label Class="control-label" >Item Name</label>
+         <div class="controls">
+             <input required name="name" placeholder="Enter category name here" type="text" class="form-control"/>
+         </div>
+     </div>
+
+     <div class="control-group">
+         <label Class="control-label" >Category</label>
+           <div class="controls">
+              <select required name="categoryId" placeholder="" type="text" class="form-control">
+
+                  @if(categories.isEmpty) {
+                  <option value="">Add a category first</option>
+                  } else {
+
+                  @for(c <- categories) {
+                  <option value=@c.id >@c.name</option>
+                  }
+
+                  }
+
+              </select>
+           </div>
+     </div>
+
+     <div class="control-group">
+         <label Class="control-label" >Price</label>
+         <div class="controls">
+             <input required name="price" placeholder="" type="text" class="form-control"/>
+         </div>
+     </div>
+
+         <div class="control-group">
+             <label Class="control-label" >Quantity</label>
+             <div class="controls">
+                 <input required name="quantity" placeholder="" type="text" class="form-control"/>
+             </div>
+         </div>
+
+         <div class="control-group">
+             <label Class="control-label" >Expiry Date</label>
+             <div class="controls">
+                 <input required name="expiryDate" placeholder="" type="text" class="form-control"/>
+             </div>
+         </div>
+
+     <input type="submit" class="btn btn-primary" style="margin-top: 10px;margin-left: 280px;"/>
+ }
+ </div>
+ </section>
+
+
+
+ <section class="">
+
+     @if(items.isEmpty) {
+     <h1>No items at the moment</h1>
+     } else {
+     <table class="table table-bordered table-striped">
+         <thead>
+         <tr>
+             <td>Item Name</td>
+             <td>Price</td>
+             <td>Quantity</td>
+             <td>Expiry Date</td>
+             <td>Category</td>
+         </tr>
+         </thead>
+         <tbody>
+     @for(i <- items) {
+     <tr>
+     <td>@i.name</td>
+     <td>@i.price</td>
+     <td>@i.quantity</td>
+     <td>@i.expiryDate</td>
+     <td>Category</td>
+     </tr>
+     <!--<li>@i.name ($@i.price)</li>-->
+     }
+     </tbody>
+     </table>
+
+     }
+
+ </section>
+</div>
+}

@@ -1,0 +1,15 @@
+<ApplicationSpec-stats timestamp="1429802298957"><stats time="21" expectations="2" successes="2" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1429802360548"><stats time="179" expectations="2" successes="2" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1429805841909"><stats time="180" expectations="2" successes="2" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-results timestamp="1430398904282"><result location="ApplicationSpec (ApplicationSpec.scala:22)" id="-1257939978"><stats time="1733" expectations="1" failures="1" examples="1"></stats></result>
+</ApplicationSpec-results>
+<ApplicationSpec-stats timestamp="1430398904293"><stats time="39" expectations="2" failures="1" successes="1" examples="2"><trend><stats time="39" failures="1" successes="-1"></stats></trend></stats></ApplicationSpec-stats>
+<ApplicationSpec-results timestamp="1430398924331"><result location="ApplicationSpec (ApplicationSpec.scala:22)" id="-1257939978"><stats time="1541" expectations="1" failures="1" examples="1"></stats></result>
+</ApplicationSpec-results>
+<ApplicationSpec-stats timestamp="1430398924347"><stats time="21" expectations="2" failures="1" successes="1" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-results timestamp="1430398944750"><result location="ApplicationSpec (ApplicationSpec.scala:22)" id="-1257939978"><stats time="1466" expectations="1" failures="1" examples="1"></stats></result>
+</ApplicationSpec-results>
+<ApplicationSpec-stats timestamp="1430398944773"><stats time="21" expectations="2" failures="1" successes="1" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-results timestamp="1430399111735"><result location="ApplicationSpec (ApplicationSpec.scala:22)" id="-1257939978"><stats time="108" expectations="1" failures="1" examples="1"></stats></result>
+</ApplicationSpec-results>
+<ApplicationSpec-stats timestamp="1430399111759"><stats time="193" expectations="2" failures="1" successes="1" examples="2"></stats></ApplicationSpec-stats>
