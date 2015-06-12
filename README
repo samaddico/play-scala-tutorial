@@ -1,4 +1,13 @@
-This is your new Play application
+Play with Scala Tutorial
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+This repository contains a simple play with scala tutorial,Illustrating simple crud operations.
+
+Prerequisites
+==============
+
+- First of all, make sure that you have a [working Play installation](https://www.playframework.com/download),includes an activator.
+
+- Add activator to your PATH [check](https://www.playframework.com/documentation/latest/Installing)
+
+- Goto project root direct and run command  "activator"
