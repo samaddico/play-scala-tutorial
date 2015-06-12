@@ -179,3 +179,7 @@
 [0m[[0minfo[0m] [0m	at scala.collection.immutable.List.foreach(List.scala:383) ~[scala-library-2.11.1.jar:na][0m
 [0m[[0minfo[0m] [0mplay - database [default] connected at jdbc:mysql://localhost:3306/scalatut[0m
 [0m[[0minfo[0m] [0mplay - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
+[0m[[0minfo[0m] [0mJVM exiting, shutting down Play fork run ...[0m
+[0m[[0minfo[0m] [0mPlay fork run already stopped ...[0m
+[0m[[0minfo[0m] [0mForked Play process exited with status 0[0m
